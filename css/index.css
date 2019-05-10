@@ -18,8 +18,8 @@ display: block;
 float: left;
 width: 12vw;
 box-sizing: border-box;
-margin:3px;
-padding: 5px;
+margin:1%;
+padding: 1%;
 text-align: center;
 }
 .more{
@@ -41,6 +41,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'palatino linotype';
+  min-width: 100%;
 }
 .banner{
   margin: 20px auto;
@@ -72,13 +73,14 @@ footer ul li a{
   color:white;
   text-decoration: none;
   list-style: none;
-  width: 15vw;
+  width: 10vw;
   border-left: solid 1px white;
-  padding-left: 3%;
-  margin-left: 4%;
+float: left;
 }
 footer ul li{
-display: inline;
+display: block;
+text-align: center;
+margin: 0 auto;
 }
 footer{
   background-color: red;
@@ -111,4 +113,100 @@ position: relative;
 }
 article{
   margin-top: 5%;
+}
+@media only screen and (max-width:420px ) {
+  .product{
+    width: 100%;
+    margin-top: 20%;
+  }
+  .main-nav ul li a{
+list-style: none;
+text-decoration: none;
+color: white;
+background-color: #828282;
+display: block;
+/* float: left; */
+width: 80%;
+box-sizing: border-box;
+margin: 1%;
+padding: 1%;
+text-align: center;
+}
+.banner{
+  display:none;
+}
+.vip-products{
+  overflow: auto;
+}
+.more{
+width: 36vw;
+}
+footer ul li a{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  display: block;
+  /* float: left; */
+  width: 80%;
+  box-sizing: border-box;
+  margin: 1%;
+  padding: 1%;
+  text-align: center;
+}
+footer ul li{
+
+}
+footer{
+  border-radius: 0px;
+background-color: inherit;
+width: 100%
+ padding:0;
+width: 105vw;
+margin-left: -34px;
+}
+}
+@media only screen and (min-width: 600px) {
+  .product{
+    width: 45%;
+    float: left;
+    margin-right: 5%;
+  }
+  .product:nth-child(3n){
+    margin-right: 5%;
+  }
+footer{
+  border-radius: 0px;
+  background-color: inherit;
+  width: 100%
+   padding:0;
+  width: 105vw;
+  margin-left: -34px;
+  margin-top: 0;
+  }
+
+}
+footer ul li a{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  display: block;
+  /* float: left; */
+  width: 80%;
+  box-sizing: border-box;
+  margin: 0.5%;
+  padding: 1%;
+  text-align: center;
+}
+.banner{
+  margin: 0 auto;
+  text-align: center;
+
+}
+.banner img{
+  width: 96%;
+  margin-left: -5%;
+  margin-bottom: -4%;
+}
 }
