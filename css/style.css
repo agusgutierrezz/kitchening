@@ -1,0 +1,145 @@
+header{
+  width: 100%;
+  margin: 0px -6px;
+}
+body{
+  background-image: url('../html/images/bg-body.png');
+  font-family: 'palatino linotype';
+}
+.logo{
+display: block;
+  margin: 0 auto;
+  border-radius: 51%;
+}
+.main-nav li{
+list-style: none;
+width: 100%;
+background-color: #828282;
+}
+.main-nav ul li a{
+display: block;
+text-decoration: none;
+color:white;
+background-color: #828282;
+width: 100%;
+text-align: center;
+margin: 1% auto;
+margin-left: -13%;
+}
+.banner{
+  display:none;
+}
+photo{
+  width: 100%;
+}
+.special{
+position: absolute;
+right:28px;
+top:0;
+}
+.zoom{
+  position: absolute;
+  top:50%;
+  left:0;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(0,0,0,0.5);
+  width: 69%;
+  padding-left: 30%;
+}
+.photo-container{
+position: relative;
+}
+.more{
+  background-color: #828282;
+  text-decoration: none;
+  color:white;
+  margin-bottom: 1%;
+  display: block;
+  width: 20vw;
+}
+footer{
+  width: 100;
+}
+footer ul li{
+  width: 100%;
+  list-style: none;
+
+}
+footer ul li a{
+  background-color: red;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+margin: 1% 9%;
+  margin-left: -13%;
+}
+.vip-products{
+display: block;
+  margin:1% auto;
+}
+@media only screen and (min-width: 600px) {
+.header{
+width: 100%;
+}
+.main-nav{
+  overflow: hidden;
+}
+  .main-nav ul li a{
+    display: block;
+    float:left;
+    width: 14%;
+    margin-left: 2%;
+  }
+  .vip-products{
+    overflow: hidden;
+    width: 100%;
+    margin-left: 9%;
+  }
+  .product{
+    width: 40%;
+    float: left;
+    margin-right: 5%;
+  }
+  .more{
+  width: 9vw;
+  padding: 1%;
+  }
+  .special{
+    right: 63%;
+  }
+footer{
+  background-color: red;
+  border-radius: 15px 15px 0 0;
+  overflow: hidden;
+}
+footer ul li a{
+  display: block;
+  float:left;
+  margin-left: 6%;
+  margin-bottom: 4%;
+  border-left: 1px solid white;
+  padding-left: 0.5%;
+
+}
+
+}
+@media only screen and (min-width: 1000px) {
+  .product{
+  width: 25%
+  }
+  .zoom{
+    width: 56%;
+  }
+  .special {
+    right: 4%;
+}
+.more {
+    width: 5vw;
+    padding: 1%;
+}
+footer ul li a{
+  margin-left: 9%;
+}
+}
